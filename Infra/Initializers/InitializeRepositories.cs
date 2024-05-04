@@ -1,8 +1,7 @@
 ﻿using Infra.Repositories.BrewerieRepository;
 using Infra.Repositories.WholeSalerRepository;
 using Microsoft.Extensions.DependencyInjection;
-using Model.Interfaces;
-
+using Model.Interfaces.RepositoryInterfaces;
 
 namespace Infra.Initializers
 {

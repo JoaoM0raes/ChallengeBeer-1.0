@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using Model.Interfaces;
+using Model.Models.Brewerie;
 
 namespace ChallengeBeer.Controllers
 {
@@ -8,6 +8,29 @@ namespace ChallengeBeer.Controllers
     [ApiController]
     public class BrewerieController : MainControllerBase
     {
+       
+
+        public BrewerieController()
+        {
+           
+        }
+
+        [HttpPost]
+        public ActionResult AddNewBrewerie(BreweryVo breweryVo)
+        {
+            if (!ModelState.IsValid)
+                return CustomResponse(ModelState);
+
+            _repository.AddBrewerie(breweryVo);
+
+        }
+
+        [HttpDelete]
+        public void DeleteBrewerie()
+        {
+
+        }
+
 
         [HttpPost]
         public void AddNewBeer()

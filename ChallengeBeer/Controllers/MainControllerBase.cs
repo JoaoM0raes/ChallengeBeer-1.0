@@ -10,7 +10,7 @@ namespace ChallengeBeer.Controllers
     [ApiController]
     public class MainControllerBase : ControllerBase
     {
-        public List<String> _errors { get; set; }
+        public List<string> _errors { get; set; }
 
         protected ActionResult CustomResponse(object result = null, HttpStatusCode? ResponseCode = null)
         {

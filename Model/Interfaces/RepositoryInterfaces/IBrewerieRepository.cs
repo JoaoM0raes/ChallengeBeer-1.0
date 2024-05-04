@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model.Interfaces
+namespace Model.Interfaces.RepositoryInterfaces
 {
     public interface IBrewerieRepository
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model.Interfaces
+namespace Model.Interfaces.ApplicationInterfaces
 {
-    public interface IWholeSalerRepository
+    public interface IWholesallerService
     {
 
     }

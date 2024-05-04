@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeBeer", "ChallengeBeer\ChallengeBeer.csproj", "{A7411948-A22C-4D90-B829-2DE2EC14B24E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeBeer", "ChallengeBeer\ChallengeBeer.csproj", "{A7411948-A22C-4D90-B829-2DE2EC14B24E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{4C2831C6-0D42-43CA-B17D-033EF679D4BF}"
 EndProject
@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Model", "3-Model", "{A02D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{EC411934-9F7C-46D2-8F10-197453F50AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{E6EC6FC8-04CB-4324-BE90-AF3FA9093043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{E6EC6FC8-04CB-4324-BE90-AF3FA9093043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{90AABA22-4485-42C0-AE6D-E3BFABD90168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{90AABA22-4485-42C0-AE6D-E3BFABD90168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{422BC439-B202-4465-A24C-382C22F598CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{90AABA22-4485-42C0-AE6D-E3BFABD90168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90AABA22-4485-42C0-AE6D-E3BFABD90168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90AABA22-4485-42C0-AE6D-E3BFABD90168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422BC439-B202-4465-A24C-382C22F598CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422BC439-B202-4465-A24C-382C22F598CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422BC439-B202-4465-A24C-382C22F598CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422BC439-B202-4465-A24C-382C22F598CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{A7411948-A22C-4D90-B829-2DE2EC14B24E} = {4C2831C6-0D42-43CA-B17D-033EF679D4BF}
 		{E6EC6FC8-04CB-4324-BE90-AF3FA9093043} = {EC411934-9F7C-46D2-8F10-197453F50AD9}
 		{90AABA22-4485-42C0-AE6D-E3BFABD90168} = {A02D6011-824C-4BDE-8D47-C296A957D069}
+		{422BC439-B202-4465-A24C-382C22F598CD} = {1C02C477-79E0-48C7-B1DB-1924A830C779}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFF096CC-79B6-47D9-A23B-4A88C158DA3F}

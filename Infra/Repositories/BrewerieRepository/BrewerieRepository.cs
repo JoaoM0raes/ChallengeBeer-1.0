@@ -1,6 +1,6 @@
 ﻿using Infra.ErmContext;
 using Microsoft.EntityFrameworkCore;
-using Model.Interfaces;
+using Model.Interfaces.RepositoryInterfaces;
 using Model.Models.Brewerie;
 
 
