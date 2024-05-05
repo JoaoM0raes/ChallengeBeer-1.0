@@ -19,8 +19,12 @@ namespace Model.Interfaces.ApplicationInterfaces
 
         public Task AddBrewerie(BreweryVo brewery);
 
+        public Task DeleteBrewerie(BreweryVo brewery);
+
         public Task<List<BeerVo>> SelectAllBeersByBrewery(Guid id);
 
         public Task<List<BreweryVo>> SelectAllBreweries();
+
+        public Task<BreweryVo> SelectBrewerieById(Guid id);
     }
 }

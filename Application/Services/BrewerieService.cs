@@ -2,7 +2,6 @@
 using Model.Interfaces.RepositoryInterfaces;
 using Model.Models.Brewerie;
 
-
 namespace Application.Services
 {
     public class BrewerieService : IBrewerieService
@@ -16,39 +15,119 @@ namespace Application.Services
 
         public Task AddBeer(BeerVo beer)
         {
-            _repository.AddBeer(beer);
-            return Task.CompletedTask;
+            try
+            {
+                _repository.AddBeer(beer);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException(ex);
+            }
         }
 
         public Task AddBrewerie(BreweryVo brewery)
         {
-            _repository.AddBrewerie(brewery);
-            return Task.CompletedTask;
+            try
+            {
+                _repository.AddBrewerie(brewery);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException(ex);
+            }
         }
 
-        public Task DeleteBeer(BeerVo Beer)
+        public Task DeleteBrewerie(BreweryVo breweryVo)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _repository.DeleteBrewerie(breweryVo);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException(ex);
+            }
         }
 
-        public Task EditBeer(BeerVo Beer)
+        public Task DeleteBeer(BeerVo beerVo)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _repository.DeleteBeer(beerVo);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException(ex);
+            }
+        }
+
+        public Task EditBeer(BeerVo beerVo)
+        {
+            try
+            {
+                _repository.EditBeer(beerVo);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException(ex);
+            }
         }
 
         public Task<List<BeerVo>> SelectAllBeers()
         {
-            throw new NotImplementedException();
+            try
+            {
+                Task<List<BeerVo>> response = _repository.SelectAllBeers();
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException<List<BeerVo>>(ex);
+            }
         }
 
         public Task<List<BeerVo>> SelectAllBeersByBrewery(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Task<List<BeerVo>> response = _repository.SelectAllBeersByBrewery(id);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException<List<BeerVo>>(ex);
+            }
         }
 
         public Task<List<BreweryVo>> SelectAllBreweries()
         {
-            throw new NotImplementedException();
+            try
+            {
+                Task<List<BreweryVo>> response = _repository.SelectAllBreweries();
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException<List<BreweryVo>>(ex);
+            }
+        }
+
+        public Task<BreweryVo> SelectBrewerieById(Guid id)
+        {
+            try
+            {
+                Task<List<BreweryVo>> response = _repository.SelectAllBreweries();
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException<BreweryVo>(ex);
+            }
         }
     }
 }

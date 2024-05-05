@@ -20,6 +20,15 @@ namespace Infra.Repositories.BrewerieRepository
             await _dbContext.AddAsync(brewery);
             await _dbContext.SaveChangesAsync();
         }
+        public async Task DeleteBrewerie(BreweryVo breweryVo)
+        {
+            _dbContext.BreweryDbSet.Remove(breweryVo);
+            await _dbContext.SaveChangesAsync();
+        }
+        public async Task<BreweryVo> SelectBreweryById(Guid id)
+        {
+            return await _dbContext.BreweryDbSet.FirstOrDefaultAsync(x => x.Id == id);
+        }
 
         public async Task AddBeer(BeerVo beer)
         {
@@ -51,6 +60,11 @@ namespace Infra.Repositories.BrewerieRepository
         public async Task<List<BreweryVo>> SelectAllBreweries()
         {
             return await _dbContext.BreweryDbSet.ToListAsync();
+        }
+
+        public async Task<BeerVo> SelectBeerById(Guid id)
+        {
+            return await _dbContext.BeerDbSet.FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }
