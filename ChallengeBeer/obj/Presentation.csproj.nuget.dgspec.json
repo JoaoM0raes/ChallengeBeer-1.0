@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\Application\\Application.csproj": {}
+    "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\Application\\Application.csproj": {
+    "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj",
         "packagesPath": "C:\\Users\\João Moraes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\Application\\obj\\",
+        "outputPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,6 +74,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

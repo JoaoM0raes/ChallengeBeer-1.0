@@ -1,0 +1,7 @@
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.csproj.AssemblyReference.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.AssemblyInfoInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.AssemblyInfo.cs
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.csproj.CoreCompileInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\ChallengeBeer\obj\Debug\net7.0\ChallengeBeer.MvcApplicationPartsAssemblyInfo.cache

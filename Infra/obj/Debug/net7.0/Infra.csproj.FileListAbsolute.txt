@@ -1,0 +1,15 @@
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\bin\Debug\net7.0\Infra.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\bin\Debug\net7.0\Infra.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\bin\Debug\net7.0\Model.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\bin\Debug\net7.0\Model.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\Infra.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Infra\obj\Debug\net7.0\ref\Infra.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Model.Interfaces;
+using Model.Interfaces.ApplicationInterfaces;
 using Model.Models.Brewerie;
 
 namespace ChallengeBeer.Controllers
@@ -8,11 +9,10 @@ namespace ChallengeBeer.Controllers
     [ApiController]
     public class BrewerieController : MainControllerBase
     {
-       
-
-        public BrewerieController()
+        protected IBrewerieService _service { get; set; }
+        public BrewerieController(IBrewerieService service)
         {
-           
+            _service = service;
         }
 
         [HttpPost]
@@ -21,7 +21,7 @@ namespace ChallengeBeer.Controllers
             if (!ModelState.IsValid)
                 return CustomResponse(ModelState);
 
-            _repository.AddBrewerie(breweryVo);
+            _service.AddBrewerie(breweryVo)
 
         }
 

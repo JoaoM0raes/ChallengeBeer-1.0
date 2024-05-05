@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hr1OPDfdmiA6i+ku9H437O7VYV8RetoRmuv3eTQdax/RJVoF0yEmjz5hNacgnydABez+mSsbbSew4JD3qx/Oeg==",
+  "dgSpecHash": "Olx6hV7gokBSsqMrX0IJRd1Dl0qr9Fa49a/RSjaihHnXscFPjAVP3iCaFc8DwxxGKo+iiUxbn/wIUOxpD2/DRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\ChallengeBeer.csproj",
+  "projectFilePath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\João Moraes\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\João Moraes\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.18\\microsoft.entityframeworkcore.7.0.18.nupkg.sha512",

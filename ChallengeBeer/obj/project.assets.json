@@ -998,9 +998,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\ChallengeBeer.csproj",
-      "projectName": "ChallengeBeer",
-      "projectPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\ChallengeBeer.csproj",
+      "projectUniqueName": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj",
+      "projectName": "Presentation",
+      "projectPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\Presentation.csproj",
       "packagesPath": "C:\\Users\\João Moraes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\João Moraes\\source\\repos\\ChallengeBeer-1.0\\ChallengeBeer\\obj\\",
       "projectStyle": "PackageReference",

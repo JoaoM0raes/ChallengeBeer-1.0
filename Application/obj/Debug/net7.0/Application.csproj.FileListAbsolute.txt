@@ -1,0 +1,15 @@
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\bin\Debug\net7.0\Application.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\bin\Debug\net7.0\Model.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\bin\Debug\net7.0\Model.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\João Moraes\source\repos\ChallengeBeer-1.0\Application\obj\Debug\net7.0\ref\Application.dll
